@@ -1,0 +1,114 @@
+// 第一章 2019/7/23
+/*
+1.
+#include<iostream>
+int main()
+{
+	using namespace std;
+	cout << "wanggege" << endl << "earth";
+	return 0;
+}
+*/
+
+/*
+2.
+#include<iostream>
+int main()
+{
+	using namespace std;
+	int long1;
+	cin >> long1;
+	long1 = long1* 220;
+	cout << long1;
+	return 0;
+}
+*/
+
+/*
+3.
+#include<iostream>
+using namespace std;
+void first()
+{
+	cout << "Three blind mice" << endl;
+}
+void last()
+{
+	cout << "See how they run" << endl;
+}
+int main()
+{
+	first();
+	first();
+	last();
+	last();
+	return 0;
+}
+*/
+
+/*
+4.
+#include<iostream>
+int main()
+{
+	using namespace std;
+	int age;
+	cout << "enter your age" << endl;
+		cin >> age;
+		age = age * 12;
+		cout << age << "month";
+		return 0;
+}
+*/
+
+/*
+5.
+#include<iostream>
+int main()
+{
+	using namespace std;
+	float c;
+	cout << "please enter a celsius value:";
+	cin >> c;
+	c = 1.8 * c + 32.0;
+	cout << c;
+	return 0;
+}
+//没调用。。。
+*/
+
+/*
+6.
+#include<iostream>
+using namespace std;
+int tran(int g)
+{
+	g = g * 63240;
+	return g;
+}
+int main()
+{
+	int g;
+	cin >> g;
+	g = tran(g)
+	cout << g;
+	return 0;
+}
+*/
+
+/*
+7.
+#include<iostream>
+using namespace std;
+void ccout(int h,int m)
+{
+	cout << "Time:" << h << ":" << m;
+}
+int main()
+{
+	int h, m;
+	cin >> h >> m;
+	ccout(h, m);
+	return 0;
+}
+*/
