@@ -1,0 +1,102 @@
+#include<iostream>
+using namespace std;
+/*
+//1
+int main()
+{
+	const int tran = 12;
+	int foot;
+	int inch;
+	cin >> foot;
+	inch = foot / tran;
+	foot = foot % tran;
+	cout <<"英尺"<< inch << endl;
+	cout << "英寸"<<foot << endl;
+	return 0;
+}
+*/
+
+/*
+//2.
+int main()
+{
+	float inch, foot, weight, BMI;
+	cin >> foot >> inch >> weight;
+	inch = inch + foot * 12;
+	cout <<endl<< inch << endl;
+	inch = inch * 0.0254;
+	weight = weight / 22;
+	BMI = weight / inch * inch;
+	cout << BMI;
+}
+//未用符号常量表示各类转换因子
+*/
+
+/*
+//3.
+int main()
+{
+	float degree, minute, second;
+	cout << "Enter a latitude in degree,minutes,and seconds:" << endl<<"firat,enter the degrees:";
+	cin >> degree;
+	cout << degree<<endl;
+	cout << "Mext,enter the minutes of arc:";
+		cin >> minute;
+		cout << minute<<endl;
+		cout << "Finally,enter the seconds of arc:";
+		cin >> second;
+		cout << second<<endl;
+		degree = degree + minute / 60 + second / 360;
+		cout << degree;
+		return 0;
+}
+*/
+
+/*
+//4.
+int  main()
+{
+	long day, hour, waste;
+	long long minute, second;
+	cout << "Enter the number of seconds:";
+	cin >> second;
+	cout << second << endl << second;
+	waste = second / 60;
+	second = second % 60;
+	minute = waste % 60;
+	waste = waste / 60;
+	hour = waste % 24;
+	waste = waste / 24;
+	day = waste;
+	cout << "seconds=" << day << "days" << hour << "hours" << minute << "minutes" << second << "seconds";
+}
+*/
+
+/*
+//5.
+int main()
+{
+	long long world, usa;
+	float world1;
+	cin >> world >> usa;
+	world1= float(usa / world )/ 100;
+	cout << endl<<world1<<"%";
+}
+*/
+
+/*
+//6.
+int main()
+{
+	int mile, gallon;
+		float result;
+		cin >> mile >> gallon;
+		result = mile / gallon;
+		cout << endl << result;
+}
+*/
+
+/*
+//7.
+  2+6;
+*/
