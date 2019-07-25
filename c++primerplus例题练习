@@ -1,0 +1,109 @@
+// 2019/07/25
+// 运行环境：VS19
+/*
+//arrayone.cpp--small arrays of integers
+#include<iostream>
+int main()
+{
+	using namespace std;
+	int yam[3];
+	yam[0] = 7;
+	yam[1] = 8;
+	yam[2] = 6;
+
+	int yamcosts[3] = { 20,30,5 };
+
+	cout << "Tototal yams =";
+	cout << yam[0] + yam[1] + yam[2] << endl;
+	cout << "The package with" << yam[1] << "yams costs";
+	cout << yamcosts[1] << "cents per yams.\n";
+	int total = yam[0] * yamcosts[0] + yam[1] * yamcosts[1] + yam[2] * yamcosts[2];
+	cout << "The total yam expense is" << total << "cents.\n";
+
+	cout << "\nSize of yams array =" << sizeof yam;
+	cout << "bytes.\n";
+	cout << "Size of one element =" << sizeof yam[0];
+	cout << "bytes.\n";
+	return 0;
+}
+*/
+
+/*
+//strings.cpp--storing strings in array
+#include<iostream>
+#include<cstring>
+int main()
+{
+	using namespace std;
+	const int Size = 15;
+	char name1[Size];
+	char name2[Size]="c++owboy";
+	
+	cout << "Howdy?I am" << name2 << "What's your name?";
+		cin >> name1;
+		cout << "Well," << name1 << ",your name has" << strlen(name1) << "letters and is stored\n";
+		cout << "in an array of" << sizeof(name1) << "bytes.\n";
+		cout << "your initial is" << name1[0] << ".\n";
+		name2[3] ='\0';
+		cout << "Here is first three characters of my name:";
+		cout << name2 << endl;
+		return 0;
+
+}
+*/
+
+/*
+//instr.cpp--reading more than one string
+#include<iostream>
+int main()
+{
+	using namespace std;
+	const int ArSize = 20;
+	char name[ArSize];
+	char dessert[ArSize];
+		cout << "Enter your name:\n";
+		cin.getline(name, ArSize);
+	cout << "Enter your favorite dessert\n";
+	cin.getline(dessert, ArSize);
+	cout << "I have some delious" << dessert << "for you," << name;
+	return 0;
+}
+*/
+
+/*
+//instr3.cpp--reading more than one string
+#include<iostream>
+int main()
+{
+	using namespace std;
+	const int ArSize = 20;
+	char name[ArSize];
+	char dessert[ArSize];
+	cout << "Enter your name:\n";
+	cin.get(name, ArSize).get();
+	cout << "Enter your favorite dessert\n";
+	cin.get(dessert, ArSize).get();
+	cout << "I have some delious" << dessert << "for you," << name;
+	return 0;
+}
+*/
+
+/*
+//numstr.cpp--following number input with line input
+#include<iostream>
+int main()
+{
+	using namespace std;
+	cout << "What's year was your house built?\n";
+	int year;
+	cin >> year;
+	cout << "What is its street address?\n";
+	char address[80];
+	cin.getline(address, 80);
+	cout << "Year built" << year << endl;
+	cout << "Address:" << address << endl;
+	cout << "Done!\n";
+	return 0;
+}
+//可添加一个cin.get()加以改正
+*/
