@@ -1,0 +1,91 @@
+// 2019/07/26
+// 运行环境：VS19
+/*
+//1.
+#include<iostream>
+#include<string>
+#include<cstring>
+int main()
+{
+	using namespace std;
+	char grade;
+	int age;
+	string name;
+	cin >> grade
+	>> age
+	>> name;
+	grade = grade + 1;
+	cout << grade << endl << age << endl << name << endl;
+	return 0;
+}
+*/
+
+/*
+//2.
+#include<iostream>
+#include<string>
+int main()
+{
+	using namespace std;
+	string name;
+	string dessert;
+
+	cout << "Enter your name:\n";
+	getline(cin, name);
+	cout << "Enter your favorite dessert:\n";
+	getline(cin, dessert);
+	cout << "I have some delicious" << dessert;
+	cout <<"for you," << name << ".\n";
+	return 0;
+}
+*/
+
+/*
+//3.
+#include<iostream>
+#include<cstring>
+int main()
+{
+	using namespace std;
+	char xing[6];
+	char ming[6];
+	cin.getline(xing,6);
+	cin.getline(ming, 6);
+	cout << xing << "," << ming;
+	return 0;
+	//姓与名顺序颠倒了,不过结果不变
+}
+*/
+
+/*
+//4.
+#include<iostream>
+int main()
+{
+	using namespace std;
+	string ming;
+	string xing;
+	cin >> ming >> xing;
+	cout << ming << "," << xing;
+	return 0;
+}
+*/
+
+/*
+//5.
+#include<iostream>
+int main()
+{
+	using namespace std;
+	typedef struct jiegout {
+		string name;
+		double weight;
+		int calories;
+	}jiegout;
+	jiegout jiegout = { "Mocha Munch",2.3,350 };
+	cout << "the information of CandyBar,Name:" << jiegout.name << ",Weight" << jiegout.weight << ",Calories" << jiegout.calories << "." << endl;
+	return 0;
+}
+*/
+
+//6.同
