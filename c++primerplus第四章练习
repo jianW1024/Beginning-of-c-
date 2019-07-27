@@ -89,3 +89,58 @@ int main()
 */
 
 //6.同
+
+// 2019/07/27
+// 运行环境：VS19
+/*
+//7.
+#include<iostream>
+#include<string>
+using namespace std;
+typedef struct PIZZA_INFO {
+	string name;
+	double size;
+	double weight;
+}ST_PIZZA_INFO;
+int main()
+{
+	ST_PIZZA_INFO pizz_info;
+	cout << "Enter the pizza company name:";
+	getline(cin, pizz_info.name);
+	cout << "Enter the pizza size:";
+	cin >> pizz_info.size;
+	cout << "Enter the pizza weight:";
+	cin >> pizz_info.weight;
+	cout << pizz_info.name << pizz_info.size << pizz_info.weight;
+
+
+}
+*/
+
+/*
+//8.
+#include<iostream>
+#include<string>
+using namespace std;
+typedef struct PIZZA_INFO {
+	string name;
+	double size;
+	double weight;
+}ST_PIZZA_INFO;
+int main()
+{
+	ST_PIZZA_INFO* pizza_info = new ST_PIZZA_INFO;
+	cout << "Enter the pizza size:";
+	cin >> pizza_info->size;
+	cin.get();
+	cout << "Enter the pizza company name:";
+	getline(cin, pizza_info->name);
+	cout << "Enter the pizza weight:";
+	cin >> pizza_info->weight;
+	cout << pizza_info->name << pizza_info->size << pizza_info->weight;
+	delete pizza_info;
+	return 0;
+}
+*/
+// 2019/07/28
+// 运行环境：无
