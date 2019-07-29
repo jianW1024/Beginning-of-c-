@@ -144,3 +144,22 @@ int main()
 */
 // 2019/07/28
 // 运行环境：无
+
+// 2019/07/29
+// 运行环境：VS19
+/*
+//10.
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	char time[3];
+	double avg;
+	cin >> time[0];
+	cin >> time[1];
+	cin >> time[2];
+	avg = (time[0] + time[1] + time[2]) / 3;
+	cout << time[0] << time[1] << time[2] << endl;
+}
+*/
